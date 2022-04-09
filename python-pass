@@ -1,0 +1,11 @@
+arr =[]
+size = int(input("Enter X value "))
+
+for i in range(size):
+  arr.append(int(input()))
+     
+for i in arr:
+  if(i%2 == 0):
+    print("{0} is even".format(i))
+  else:
+    print("{0} is odd".format(i))
