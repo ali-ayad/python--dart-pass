@@ -1,0 +1,5 @@
+Q1
+we can't use the the const keyword with DateTime.now() because datetime gives current time that change with every fraction.
+
+
+Q2
