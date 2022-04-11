@@ -3,3 +3,72 @@ we can't use the the const keyword with DateTime.now() because datetime gives cu
 
 
 Q2
+abstract class Animle {
+  void printName();
+  void printSound();
+  
+  
+    
+}
+
+class Cow extends Animle
+{
+  @override
+  void printName()
+  {
+    print("Cow");
+  }
+  void printSound()
+  {
+    print("moo");
+    
+  }
+}
+  
+class Dog extends Animle
+    
+{
+  @override
+  void printName()
+  {
+    print("Dog");
+  }
+  void printSound()
+  {
+    print("bark");
+  }}
+    
+class Cat extends Animle
+{
+  @override
+  void printName()
+  {
+    print("Cat");
+  }
+  void printSound()
+  {
+    print("meow");
+  }
+
+}
+  
+
+void main() {
+  Dog d1 = new Dog();
+  
+  d1.printName();
+  d1.printSound();
+  
+  Cow c1 = new Cow();
+  
+  c1.printName();
+  c1.printSound();
+  
+     Cat c2 = new Cat();
+  
+  c2.printName();
+  c2.printSound();
+  
+ 
+  }
+
